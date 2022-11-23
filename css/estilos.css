@@ -1,0 +1,122 @@
+.hr{
+  text-decoration: none;
+  border-color: none;
+  color: none;
+  margin: 0;
+  padding: 0
+}
+
+.logo{
+  margin: auto;
+}
+.lema{
+  color: #fdfdfd;
+}
+
+.menu{
+  background-color: rgb(168, 168, 168);
+}
+
+.menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.menu ul li{
+  display: inline-block;
+}
+
+.menu ul li a{
+  color: rgb(252, 248, 248);
+  display: block;
+  padding: 20px 20px;
+  text-decoration: none;
+  margin: 3px;
+}
+
+.menu ul li a:hover{
+  background-color: rgb(207, 110, 20);
+  padding: 1vw;
+}
+.body{
+  height: 100vh;
+  width: 100%;
+  background-image:url(../Imagenes/fachada.JPG);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.presentacion{
+  text-align: center;
+  margin: 20vh;
+}
+.texto{
+  background-color: black;
+  color: #f8f8f8;
+  border-radius: 10px;;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+.planb{
+  background-color: black;
+  margin: 1%;
+  padding: auto;
+  color: #f8f8f8;
+  width: 260px;
+  height: 200px;
+  margin-left: 40%;
+  border-radius: 10px;;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif
+}
+.footer{
+  margin: 15%;
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
+.mapa{
+  border-style: solid;
+  border-radius: 25px;
+  background-color: black;
+  color: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+.icono{
+  display: flex;
+  border-radius: 25px;
+  color: #f8f8f8;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 15%;
+}
+.redes{
+  margin-right: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+.formulario{
+  width: 260px;
+  height: 250px;
+  margin-left: 40%;
+  border-radius: 10px;
+  color: #f8f8f8;
+  background-color: black;
+  margin: 50
+;
+}
+.reserva{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: #fdfdfd;
+}
