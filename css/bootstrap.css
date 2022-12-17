@@ -342,8 +342,8 @@ select:disabled {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
-  -webkit-appearance: button;
+[type=submit] 
+{-webkit-appearance:button ;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -4076,6 +4076,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .navbar-expand-lg {
+    width: 100%;
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
